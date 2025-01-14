@@ -9,12 +9,11 @@ class Database {
     public $conn;
 
     public function __construct() {
-        $config = require __DIR__ . '/database.php';
-        $this->host = $config['host'];
-        $this->db_name = $config['db_name'];
-        $this->username = $config['username'];
-        $this->password = $config['password'];
-        $this->charset = $config['charset'];
+        $this->host = DB_HOST;
+        $this->db_name = DB_NAME;
+        $this->username = DB_USERNAME;
+        $this->password = DB_PASSWORD;
+        $this->charset = DB_CHARSET;
     }
 
     public function connect() {
@@ -33,3 +32,5 @@ class Database {
         return $this->conn;
     }
 }
+
+?>
