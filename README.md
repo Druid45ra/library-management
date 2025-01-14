@@ -17,7 +17,7 @@ A simple library management system built with PHP and MySQL.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/library-management-system.git`
+1. Clone the repository: `git clone https://github.com/Druid45ra/library-management-system.git`
 2. Install dependencies: `composer install`
 3. Create a MySQL database and update the `config/database.php` file with your database credentials
 4. Run the application: `php -S localhost:8000`
