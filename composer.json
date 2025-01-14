@@ -1,0 +1,53 @@
+{
+    "name": "library-management-system",
+    "description": "A library management system",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "ext-pdo": "*",
+        "ext-mysqli": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-pcre": "*",
+        "ext-zip": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-imagick": "*",
+        "ext-intl": "*",
+        "ext-mcrypt": "*",
+        "ext-sockets": "*",
+        "ext-sodium": "*",
+        "ext-tokenizer": "*",
+        "ext-xml": "*",
+        "ext-xsl": "*",
+        "ext-zip": "*",
+        "monolog/monolog": "^2.2",
+        "symfony/console": "^5.2",
+        "symfony/dependency-injection": "^5.2",
+        "symfony/event-dispatcher": "^5.2",
+        "symfony/http-foundation": "^5.2",
+        "symfony/http-kernel": "^5.2",
+        "symfony/routing": "^5.2",
+        "symfony/security": "^5.2",
+        "symfony/serializer": "^5.2",
+        "symfony/translation": "^5.2",
+        "symfony/validator": "^5.2",
+        "symfony/yaml": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
